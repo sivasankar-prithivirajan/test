@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
-    title: 'title',
+    title: process.env.name,
     description: 'my new description',
   }
 
